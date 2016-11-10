@@ -286,7 +286,7 @@ function create_config( )
     "pmLoad"
 
     },
-    sudo_users = {218722292,219009358,192727254,0,tonumber(our_id)},--Sudo users
+    sudo_users = {283875167,254025906,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[
@@ -530,7 +530,7 @@ adde
 🌟دعوت سودو دوم
 **تمامی دستورات بدون نیاز به "/"و"#"و"!" میباشد
 *صاحبان گروه تنها میتوانند دستورات اصلی را اجرا کنند
-📚ربات اسمارت ورژن7.1📚
+📚ربات شارک ورژن7.1📚
 ]],
   }
   serialize_to_file(config, './data/config.lua')
